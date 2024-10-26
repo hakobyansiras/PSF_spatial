@@ -9,7 +9,7 @@ To install the PSF spatial browser, follow these steps:
 1.  Clone the GitHub repository:
 
     ``` bash
-    git clone "repository link"
+    git clone https://github.com/hakobyansiras/PSF_spatial.git
     ```
 
 2.  Install the necessary R libraries:
