@@ -16,6 +16,7 @@ To install the PSF spatial browser, follow these steps:
 
     ``` r
     remotes::install_github("hakobyansiras/psf")
+    if (!require("BiocManager", quietly = TRUE)) {install.packages("BiocManager")}
     BiocManager::install("biomaRt")
     install.packages(c("ggplot2", "patchwork", "dplyr", "data.table", "DT", "miniUI", "shiny", "Seurat", "psf", "magick", "shinyjs", "visNetwork", "biomaRt", "SeuratData"))
     ```
